@@ -1,0 +1,52 @@
+{
+	"name": "block-fast-refresh",
+	"version": "1.0.3",
+	"description": "Enable Fast Refreshing (HMR) for WordPress block editor plugin development.",
+	"author": "leeshadle",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"wordpress",
+		"gutenberg",
+		"plugin",
+		"block",
+		"framework",
+		"scaffold"
+	],
+	"homepage": "https://github.com/blockhandbook/block-fast-refresh",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/blockhandbook/block-fast-refresh.git"
+	},
+	"bugs": {
+		"url": "https://github.com/blockhandbook/block-fast-refresh"
+	},
+	"engines": {
+		"node": ">=10",
+		"npm": ">=6.9"
+	},
+	"files": [
+		"lib"
+	],
+	"main": "index.js",
+	"scripts": {
+		"lerna:version": "lerna version",
+		"lerna:publish": "lerna publish"
+	},
+	"dependencies": {
+		"browser-sync": "^2.26.13",
+    "css-loader": "^3.4.2",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.6",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^1.1.3",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-hot-middleware": "^2.25.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"lerna": "^4.0.0"
+	}
+}
