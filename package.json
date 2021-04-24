@@ -24,9 +24,6 @@
 		"node": ">=10",
 		"npm": ">=6.9"
 	},
-	"files": [
-		"lib"
-	],
 	"main": "index.js",
 	"scripts": {
 		"lerna:version": "lerna version",
