@@ -1,6 +1,6 @@
 {
 	"name": "block-fast-refresh",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "Enable Fast Refreshing (HMR) for WordPress block editor plugin development.",
 	"author": "leeshadle",
 	"license": "GPL-2.0-or-later",
